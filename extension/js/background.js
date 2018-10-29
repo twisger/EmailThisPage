@@ -29,7 +29,7 @@ chrome.contextMenus.onClicked.addListener(onClickHandler);
 chrome.runtime.onMessage.addListener(function (request, sender) {
     if (request.action == "getSource") {
         chrome.storage.sync.get({
-            serverURL: 'http://localhost:2233',
+            serverURL: 'http://localhost:2333',
         }, function (items) {
             chrome.pageCapture.saveAsMHTML({ tabId: activeTab.id }, (mhtmlBinary) => {
                 const xhr = new XMLHttpRequest()
