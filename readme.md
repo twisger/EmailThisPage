@@ -12,6 +12,6 @@ Then you can click "email this page" in the right menu of chrome to send page to
 # 使用
 0. 需要python3.7和chrome
 1. 参照config_default.ini创建config.ini配置文件, 填写相关信息。
-2. 用chrome扩展开发模式安装extensions文件夹下的扩展
+2. 在chrome安装extension.crx扩展
 3. 运行server.py
 点击右键菜单中email this page 即可发送网页到邮箱。
